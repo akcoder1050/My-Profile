@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: middle;
+    height: 600px;
+    
+}
+.my .mypic{
+    background-image: url("img.png");
+    background-size: 100% 100%;
+    width: 220px;
+    height: 220px;
+    border:2px solid #fff;
+    border-radius: 100%;
+    transition: all 2.2s cubic-bezier(.37,.26,.35,1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-position: center;
+}
+.Name{
+    font-size:50px;
+    color:#fff;
+    transition: all 2.5s cubic-bezier(.37,.26,.35,1);
+    font-family:Gill Sans;
+}
+.my:hover{
+
+    transform: scale(1.2);
+   
+}
+
